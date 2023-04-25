@@ -1,0 +1,22 @@
+git config - associate username and email with the git installation
+
+
+Add-commit-push workflow (Get files into remote repo from local)
+git add - move a file from the working directory to the staging area
+		  - the staging area is a virtual space where sets of changes can be organised 				(for one commit from the local system)
+
+git commit - moves a file from the staging area to the local repo
+			 - allows you to add a comment to a set of changes (changes to all staged files)
+
+git push - moves a file to the remote from the local repository
+
+
+Get files into your local from remote repos
+git clone - initialise a remote repository locally (copy the whole REPO to your 						computer, start working the first time on this local system)
+		    - if the repo exists locally, the command will return only an error
+
+git pull - update the local filestystem to the current state of the remote 			  					repo (the complete difference of changes)
+		   - only works when REPOSITORY previously existed locally
+		   - file(s) didn't have to exist locally before, though
+
+
